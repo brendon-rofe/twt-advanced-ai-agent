@@ -1,0 +1,13 @@
+[project]
+name = "simple-agent"
+version = "0.1.0"
+dependencies = [
+    "langchain-google-genai>=2.1.5",
+    "langchain-mcp-adapters>=0.1.7",
+    "langgraph>=0.4.8",
+    "python-dotenv>=1.1.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
